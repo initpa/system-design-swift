@@ -16,6 +16,7 @@
 		C7D6C7FF2C05FDF40089D710 /* networkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D6C7FE2C05FDF40089D710 /* networkingTests.swift */; };
 		C7D6C8092C05FDF40089D710 /* networkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D6C8082C05FDF40089D710 /* networkingUITests.swift */; };
 		C7D6C80B2C05FDF40089D710 /* networkingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D6C80A2C05FDF40089D710 /* networkingUITestsLaunchTests.swift */; };
+		C7D6C8182C05FE770089D710 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D6C8172C05FE770089D710 /* EndPoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C7D6C8042C05FDF40089D710 /* networkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = networkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D6C8082C05FDF40089D710 /* networkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networkingUITests.swift; sourceTree = "<group>"; };
 		C7D6C80A2C05FDF40089D710 /* networkingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networkingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C7D6C8172C05FE770089D710 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C7D6C7E72C05FDF20089D710 /* AppDelegate.swift */,
 				C7D6C7E92C05FDF20089D710 /* SceneDelegate.swift */,
 				C7D6C7EB2C05FDF20089D710 /* ViewController.swift */,
+				C7D6C8172C05FE770089D710 /* EndPoints.swift */,
 				C7D6C7ED2C05FDF20089D710 /* Main.storyboard */,
 				C7D6C7F02C05FDF30089D710 /* Assets.xcassets */,
 				C7D6C7F22C05FDF30089D710 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				C7D6C7EC2C05FDF20089D710 /* ViewController.swift in Sources */,
 				C7D6C7E82C05FDF20089D710 /* AppDelegate.swift in Sources */,
+				C7D6C8182C05FE770089D710 /* EndPoints.swift in Sources */,
 				C7D6C7EA2C05FDF20089D710 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
