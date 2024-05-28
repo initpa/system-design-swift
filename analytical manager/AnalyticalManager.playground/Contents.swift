@@ -54,13 +54,14 @@ final class AnalyticalManager {
 class CloudKitAnalyticsEngine: AnalyticalEngine {
     func sendAnalyticsEvent(name: String, metaData: [String : String]) {
         // send event to the database
-        print("event sent")
+        print(name, metaData)
     }
 }
 
 class FirebaseAnalyticsEngine: AnalyticalEngine {
     func sendAnalyticsEvent(name: String, metaData: [String : String]) {
         // send event to the database
+        print(name, metaData)
     }
 }
 
