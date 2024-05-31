@@ -8,31 +8,6 @@
 import UIKit
 import Foundation
 
-class UserService {
-    func getUsers() async throws -> [User] {
-        guard let url = URL(string: "https://jsonplaceholder.typicode.com/users") else {
-            throw NSError(domain: "Invalid URL", code: 0, userInfo: nil)
-        }
-        
-        let (data, _) = try await URLSession.shared.data(from: url)
-        return try JSONDecoder().decode([User].self, from: data)
-    }
-}
-
-
-class UserViewModel {
-    private let userService = UserService()
-    private(set) var users: [User] = []
-    
-    func fetchUsers() async throws {
-        do {
-            self.users = try await userService.getUsers()
-        } catch {
-            throw error
-        }
-    }
-}
-
 class ViewController: UIViewController {
     private let tableView = UITableView()
     private var viewModel = UserViewModel()

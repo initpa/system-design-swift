@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+class UserViewModel {
+    private let userService = UserService()
+    private(set) var users: [User] = []
+    
+    func fetchUsers() async throws {
+        do {
+            self.users = try await userService.getUsers()
+        } catch {
+            throw error
+        }
+    }
+}

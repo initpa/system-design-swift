@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C72337E72C09A8E90018F0E8 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72337E62C09A8E90018F0E8 /* UserViewModel.swift */; };
+		C72337E92C09A9280018F0E8 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72337E82C09A9270018F0E8 /* UserService.swift */; };
 		C7D6C7E82C05FDF20089D710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D6C7E72C05FDF20089D710 /* AppDelegate.swift */; };
 		C7D6C7EA2C05FDF20089D710 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D6C7E92C05FDF20089D710 /* SceneDelegate.swift */; };
 		C7D6C7EC2C05FDF20089D710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D6C7EB2C05FDF20089D710 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		C72337E62C09A8E90018F0E8 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		C72337E82C09A9270018F0E8 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		C7D6C7E42C05FDF20089D710 /* networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = networking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D6C7E72C05FDF20089D710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7D6C7E92C05FDF20089D710 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			children = (
 				C7D6C8172C05FE770089D710 /* EndPoints.swift */,
 				C7D6C8192C0711B10089D710 /* APIService.swift */,
+				C72337E82C09A9270018F0E8 /* UserService.swift */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				C7D6C81A2C0711B10089D710 /* APIService.swift in Sources */,
 				C7D6C81C2C0711FD0089D710 /* User.swift in Sources */,
 				C7D6C7E82C05FDF20089D710 /* AppDelegate.swift in Sources */,
+				C72337E92C09A9280018F0E8 /* UserService.swift in Sources */,
 				C7D6C8182C05FE770089D710 /* EndPoints.swift in Sources */,
 				C72337E72C09A8E90018F0E8 /* UserViewModel.swift in Sources */,
 				C7D6C7EA2C05FDF20089D710 /* SceneDelegate.swift in Sources */,
