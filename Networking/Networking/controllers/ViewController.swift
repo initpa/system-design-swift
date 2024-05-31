@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     private func configureTableView() {
         tableView.frame = view.bounds
         tableView.dataSource = self
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        tableView.register(UserTableViewCell.self, forCellReuseIdentifier: UserTableViewCell.identifier)
         view.addSubview(tableView)
     }
     
@@ -45,10 +45,10 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: UserTableViewCell.identifier, for: indexPath) as? UserTableViewCell
         let user = viewModel.users[indexPath.row]
-        cell.textLabel?.text = user.name
         // Configure cell with other user properties if needed
-        return cell
+        cell?.configure(user)
+        return cell ?? UITableViewCell()
     }
 }
