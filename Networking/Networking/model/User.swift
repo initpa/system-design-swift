@@ -32,4 +32,6 @@ struct Company: Codable {
     let name, catchPhrase, bs: String
 }
 
-
+struct Item {
+    let name: String
+}
